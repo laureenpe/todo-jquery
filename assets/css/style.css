@@ -1,7 +1,26 @@
+body{
+    background-color: lightgray;
+}
 .yellow{
     background-color: #FFFF50;
 }
 .yellow a{
-        color: black;
+        color: black; 
+        padding-left: 20px;
 
+}
+textarea{
+        background-color: whitesmoke;
+}
+.container{
+    border: 1px solid black;
+    margin-top: 7%;
+    background-color: white;
+    }
+
+form{
+    padding-left: 20px;
+}
+.paragraph{
+    padding-left: 20px;
 }
