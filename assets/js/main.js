@@ -1,15 +1,23 @@
+
 $(document).ready(function () {
-    $("button").click(function(e) {
+    $("button").click(function (e) {
         e.preventDefault();
-        var name = $("#nombre").val();
-        var message = $("#mensaje").val();
-        if (name == "" && message == "") {
-            alert("Debes escribir tu nombre y el mensaje");
+        var text = $(".text").val();
+        if (text == "") {
+            alert("Debes escribir una tarea");
         } else {
-            $('#comentarios').append('<div><span class="center-align>' + name + '</span><p class="center-align>' + message + '</p></div>');
+            $('#to-do').append('<div><form> class="paragraph>' + text + '</form><p class="center-align>' + text + '</p></div>');
         }
 
     });
+    //Delete button click event
+    $('.deleteButton').click(function () {
+        deleteRow($(this));
+    });
+    /**
+ * Deletes the grandparent of the delete button
+ */
+    function deleteRow(thisButton) {
+        thisButton.parent().parent().remove();
+    }
 });
-
-
