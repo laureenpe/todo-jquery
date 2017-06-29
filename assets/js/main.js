@@ -22,3 +22,9 @@ function OnRemove(item) { //Quito los elementos creados
     $(item).remove();
 }
 
+function onSelectItem(item) {
+    var html = '<div class="row item" id="' + item.id + '">' + $(item).html() + '</div>'; //id item nuevo
+    console.log(html);
+    $(item).remove();
+    $(".completed-items").append(html); //añadir completed items al html
+}
