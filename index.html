@@ -13,7 +13,7 @@
 <body>
 
     <nav>
-        <div class="nav-wrapper yellow">
+        <div class="nav-wrapper yellow-wrapper">
             <a href="#" class="brand-logo">TO DO APP</a>
         </div>
     </nav>
@@ -25,22 +25,21 @@
 
         <div class="row paragraph">
             <div class="col s12 " id="to-do">To do Items:</div>
+                      
+            
             <div class="col s6">
-                <form> <input type="checkbox" name="lunch" value="lunch" id="lunch"><label for="lunch"> Hacer almuerzo</label> </form>
-            </div>
-            <div class="col s6 offset-m8">
-                <button class="btn waves-effect waves-light green deleteButton" type="submit" name="action">Remove </button>                </div>
+                <div class="todo-items"></div>
+            </div>      
 
         </div>
         <hr>
 
         <div class="row paragraph">
             <div class="col s12">Completed Items: </div>
-            <div class="col s6">
-                <form> <input type="checkbox" name="milk" value="milk" id="milk"><label for="milk">Comprar leche</label> </form>
+            <div class="col s6 completed-items">
             </div>
             <div class="col s6  offset-m8">
-                <button class="btn waves-effect waves-light green" type="submit" name="action">Remove </button> </div>
+            </div>
         </div>
 
 
@@ -48,10 +47,11 @@
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!--Compiled and minified JavaScript -- >
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"> </script>
-    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js">
 
+    </script>
+
+    <script src="assets/js/main.js"></script>
 
 </body>
 
