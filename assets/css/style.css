@@ -1,6 +1,7 @@
 body{
     background-color: lightgray;
 }
+/*NAVBAR*/
 .yellow{
     background-color: #FFFF50;
 }
@@ -9,6 +10,7 @@ body{
         padding-left: 20px;
 
 }
+/*CONTENT*/
 textarea{
         background-color: whitesmoke;
 }
@@ -24,4 +26,13 @@ form{
 }
 .paragraph{
     padding-left: 20px;
+}
+
+label{
+    text-align: center;
+}
+
+/*FORMULARIO*/
+form{
+    margin-top: 20px;
 }

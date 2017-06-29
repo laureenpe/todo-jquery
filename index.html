@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Foro Bunny</title>
+    <title>To Do App</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
@@ -19,24 +19,25 @@
     </nav>
     <section class="container">
         <div class="text">
-            <textarea class="paragraph">Ingresa la tarea</textarea>
+            <label class="paragraph" for="new-task">Add Item</label><input id="new-task" type="text">
+
         </div>
 
         <div class="row paragraph">
-            <div class="col s12 " id="to-do">To do Items</div>
+            <div class="col s12 " id="to-do">To do Items:</div>
             <div class="col s6">
                 <form> <input type="checkbox" name="lunch" value="lunch" id="lunch"><label for="lunch"> Hacer almuerzo</label> </form>
             </div>
             <div class="col s6 offset-m8">
-                <button class="btn waves-effect waves-light green deleteButton" type="submit" name="action">Remove </button> </div>
+                <button class="btn waves-effect waves-light green deleteButton" type="submit" name="action">Remove </button>                </div>
 
         </div>
         <hr>
 
         <div class="row paragraph">
-            <div class="col s12">Completed Items</div>
+            <div class="col s12">Completed Items: </div>
             <div class="col s6">
-                <form> <input type="checkbox" name="milk" value="milk" id="milk"><label for="milk">COmprar leche</label> </form>
+                <form> <input type="checkbox" name="milk" value="milk" id="milk"><label for="milk">Comprar leche</label> </form>
             </div>
             <div class="col s6  offset-m8">
                 <button class="btn waves-effect waves-light green" type="submit" name="action">Remove </button> </div>

@@ -1,5 +1,5 @@
 
-$(document).ready(function () {
+/*$(document).ready(function () {
     $("button").click(function (e) {
         e.preventDefault();
         var text = $(".text").val();
@@ -14,10 +14,15 @@ $(document).ready(function () {
     $('.deleteButton').click(function () {
         deleteRow($(this));
     });
-    /**
+
  * Deletes the grandparent of the delete button
- */
+ 
     function deleteRow(thisButton) {
         thisButton.parent().parent().remove();
     }
-});
+});*/
+
+$(document).ready(function () {
+
+
+});//end dom ready
