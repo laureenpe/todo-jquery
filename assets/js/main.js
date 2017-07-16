@@ -53,7 +53,6 @@ function saveToLocalStorage() {
 //Esta Función obtiene del local storage el email y la contraseña
  
 function getFromLocalStorage() {
-    console.log('getting info for: ' + localStorage.getItem('task'));
     var task = localStorage.getItem('task');
 
     var toDo = $(".todo-items");
