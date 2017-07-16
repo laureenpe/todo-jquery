@@ -1,12 +1,16 @@
-body{
-    background-color: lightgray;
+*{
+    font-family: 'Roboto', sans-serif;
+
 }
+
 /*NAVBAR*/
 .yellow-wrapper{
-    background-color: #ffbb00;
+    background-color: #ee6e73;
+    text-align: center;
 }
+
 .yellow-wrapper a{
-        color: black; 
+        color: white; 
         padding-left: 20px;
 
 }
@@ -17,8 +21,10 @@ textarea{
 .container{
     border: 1px solid black;
     margin-top: 7%;
+    margin-bottom: 10%;
     background-color: white;
     padding: 17px;
+
     }
 
 form{
@@ -31,8 +37,24 @@ form{
 label{
     text-align: center;
 }
+#to-do{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.complete{
+    font-weight: 900;
+    text-transform: uppercase;
+}
 
 /*FORMULARIO*/
 form{
     margin-top: 20px;
+}
+
+/*FOOTER*/
+footer{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
 }
